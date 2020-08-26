@@ -1,0 +1,29 @@
+{
+  "name": "react-store",
+  "version": "1.0.0",
+  "description": "ecommerce store with react and node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.bundle.js",
+    "build": "webpack",
+    "dev": "nodemon ./server.js localhost 3080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JashanB/Ecommerce-Store"
+  },
+  "author": "JashanB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JashanB/Ecommerce-Store"
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0"
+  }
+}
